@@ -62,7 +62,9 @@
                     <p>Ruby Núñez Cala es una pintora contemporánea nacida en Barrancabermeja, Colombia. su obra explora la intersección entre la figuración y la abstracción, con un enfoque especial en la expresión emocional a través del color y la textura.</p>
                     <p>Su técnica mixta combina óleo, acrílico y materiales no tradicionales, creando piezas que desafían las convenciones mientras mantienen un diálogo con la tradición pictórica.</p>
                     <div class="signature">
-                        <img src="images/1.jpeg" alt="Firma de Ruby Núñez Cala">
+                            <!-- 
+                      //<img src="images/" alt="Firma de Ruby Núñez Cala">
+                       -->
                     </div>
                 </div>
             </div>
@@ -76,7 +78,7 @@
                     <figcaption>
                         <h3>Oceano </h3>
                         <p>Óleo sobre lienzo · 2023 · 100x80 cm</p>
-                        <button class="gallery-btn">Ver detalles</button>
+                        
                     </figcaption>
                 </figure>
                 <figure class="gallery-item">
@@ -84,7 +86,7 @@
                     <figcaption>
                         <h3>Ritmos Internos</h3>
                         <p>Técnica mixta · 2022 · 120x90 cm</p>
-                        <button class="gallery-btn">Ver detalles</button>
+                      
                     </figcaption>
                 </figure>
                 <figure class="gallery-item">
@@ -92,7 +94,7 @@
                     <figcaption>
                         <h3>Ritmos Internos 2</h3>
                         <p>Acrílico y collage · 2024 · 80x60 cm</p>
-                        <button class="gallery-btn">Ver detalles</button>
+                       
                     </figcaption>
                 </figure>
                 <figure class="gallery-item">
@@ -100,7 +102,7 @@
                     <figcaption>
                         <h3>Campo de Olivos</h3>
                         <p>Óleo sobre lienzo · 2021 · 90x70 cm</p>
-                        <button class="gallery-btn">Ver detalles</button>
+                     
                     </figcaption>
                 </figure>
                 <figure class="gallery-item">
@@ -108,7 +110,7 @@
                     <figcaption>
                         <h3>Bodegon</h3>
                         <p>Acrílico y collage · 2024 · 80x60 cm</p>
-                        <button class="gallery-btn">Ver detalles</button>
+                        
                     </figcaption>
                 </figure>
                 <figure class="gallery-item">
@@ -116,57 +118,122 @@
                     <figcaption>
                         <h3>Bodegon</h3>
                         <p>Acrílico y collage · 2024 · 80x60 cm</p>
-                        <button class="gallery-btn">Ver detalles</button>
+                        
                     </figcaption>
                 </figure>
             </div>
         </section>
 
       
+
+
+
+
         <section id="contacto" class="contact-section">
-            <div class="contact-card">
-                <h2>Contacto</h2>
-                <p>Para consultas sobre obras disponibles, comisiones o colaboraciones:</p>
-                <div class="contact-info">
-                    <p><i class="fas fa-envelope"></i> ruby.nunez.art@example.com</p>
-                    <p><i class="fas fa-phone"></i> +34 600 123 456</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Sevilla, España</p>
+            <div class="contact-container">
+                <div class="contact-header">
+                    <h2>Contacto</h2>
+                    <div class="divider"></div>
+                    <p>¿Interesado en mi trabajo? Contáctame para colaboraciones, exposiciones o adquisiciones.</p>
                 </div>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-artstation"></i></a>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Correo Electrónico</h3>
+                                <p>ruby.nunez.art@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Teléfono</h3>
+                                <p>+57 3013751063</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Estudio</h3>
+                                <p>Bogota, Colombia</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-media">
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Asunto">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                    </form>
                 </div>
-             
             </div>
         </section>
-    </main>
+
+
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-left">
-                <p>&copy; <span id="currentyear"></span> Ruby Núñez Cala - Todos los derechos reservados</p>
-                <p id="lastModified"></p>
-            </div>
-            
-            <div class="footer-right">
-                <p class="credits">Diseño y desarrollo por 
-                    <a href="https://github.com/Ichlaura" target="_blank" class="social-link">
-                        <i class="fab fa-github"></i> Laura Núñez
-                    </a>
-                </p>
-                
-                <!-- Widget oficial de LinkedIn -->
-                <div class="linkedin-badge">
-                    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-                    <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="dark" 
-                         data-type="HORIZONTAL" data-vanity="laupao41" data-version="v1">
-                        <a class="badge-base__link LI-simple-link" href="https://jp.linkedin.com/in/laupao41?trk=profile-badge">
-                            Laura Paola Núñez Cala
-                        </a>
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-about">
+                    <h3>Ruby Núñez Cala</h3>
+                    <p>Artista plástica especializada en pintura contemporánea y técnicas mixtas.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-artsy"></i></a>
                     </div>
                 </div>
+                
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#bio">Biografía</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#exposiciones">Exposiciones</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-linkedin">
+                    <h3>Desarrollado por</h3>
+                    <div class="linkedin-badge-container">
+                        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+                        <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="large" 
+                             data-theme="light" data-type="VERTICAL" data-vanity="laupao41" data-version="v1">
+                            <a class="badge-base__link LI-simple-link" href="https://jp.linkedin.com/in/laupao41?trk=profile-badge">
+                                Laura Paola Nuñez Cala
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentyear"></span> Ruby Núñez Cala. Todos los derechos reservados.</p>
+                <p id="lastModified"></p>
+                <p class="design-credit">Diseño y desarrollo por <a href="https://github.com/Ichlaura" target="_blank">Laura Núñez</a></p>
             </div>
         </div>
     </footer>

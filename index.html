@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Núñez Cala - Artista Pintora</title>
+    <meta name="description" content="Portafolio artístico de Ruby Núñez Cala - Pintora profesional">
+    <meta name="author" content="Laura Núñez">
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- External JS File -->
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Ruby Núñez Cala</h1>
+            <p class="subtitle">Artista Pintora · Expresionismo Contemporáneo</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#bio">Biografía</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#exposiciones">Exposiciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-image">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="images/fondo1.png">
+                    <source media="(max-width: 1200px)" srcset="images/estudio1.png">
+                    <img src="images/fondo1.png" alt="Ruby Núñez Cala pintando en su estudio" width="1200" height="800">
+                </picture>
+            </div>
+            <div class="hero-text">
+                <h2>"El arte es la mentira que nos permite comprender la verdad"</h2>
+                <p>- Pablo Picasso</p>
+                <a href="#galeria" class="btn">Explora mi obra</a>
+            </div>
+        </section>
+
+        <section id="bio" class="bio-section">
+            <div class="bio-card">
+                <div class="bio-image">
+                    <img src="images/ruby.jpg" alt="Retrato de Ruby Núñez Cala" loading="lazy">
+                </div>
+                <div class="bio-content">
+                    <h2>Biografía Artística</h2>
+                    <p>Ruby Núñez Cala es una pintora contemporánea nacida en Barrancabermeja, Colombia. su obra explora la intersección entre la figuración y la abstracción, con un enfoque especial en la expresión emocional a través del color y la textura.</p>
+                    <p>Su técnica mixta combina óleo, acrílico y materiales no tradicionales, creando piezas que desafían las convenciones mientras mantienen un diálogo con la tradición pictórica.</p>
+                    <div class="signature">
+                        <img src="images/1.jpeg" alt="Firma de Ruby Núñez Cala">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="gallery-section">
+            <h2>Galería de Obras</h2>
+            <div class="gallery-grid">
+                <figure class="gallery-item">
+                    <img src="images/oceano.jpeg" alt="Obra 'oceano'" loading="lazy">
+                    <figcaption>
+                        <h3>Oceano </h3>
+                        <p>Óleo sobre lienzo · 2023 · 100x80 cm</p>
+                        <button class="gallery-btn">Ver detalles</button>
+                    </figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="images/pueblo1.jpeg" alt="Obra 'Ritmos Internos'" loading="lazy">
+                    <figcaption>
+                        <h3>Ritmos Internos</h3>
+                        <p>Técnica mixta · 2022 · 120x90 cm</p>
+                        <button class="gallery-btn">Ver detalles</button>
+                    </figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="images/pueblo.jpeg" alt="Obra 'Ritmos Internos 2'" loading="lazy">
+                    <figcaption>
+                        <h3>Ritmos Internos 2</h3>
+                        <p>Acrílico y collage · 2024 · 80x60 cm</p>
+                        <button class="gallery-btn">Ver detalles</button>
+                    </figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="images/rio.jpeg" alt="Obra 'Campo de Olivos'" loading="lazy">
+                    <figcaption>
+                        <h3>Campo de Olivos</h3>
+                        <p>Óleo sobre lienzo · 2021 · 90x70 cm</p>
+                        <button class="gallery-btn">Ver detalles</button>
+                    </figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="images/bodegon.jpeg" alt="Obra 'Ritmos Internos 2'" loading="lazy">
+                    <figcaption>
+                        <h3>Bodegon</h3>
+                        <p>Acrílico y collage · 2024 · 80x60 cm</p>
+                        <button class="gallery-btn">Ver detalles</button>
+                    </figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="images/bodegon3.jpeg" alt="Obra 'Ritmos Internos 2'" loading="lazy">
+                    <figcaption>
+                        <h3>Bodegon</h3>
+                        <p>Acrílico y collage · 2024 · 80x60 cm</p>
+                        <button class="gallery-btn">Ver detalles</button>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+      
+        <section id="contacto" class="contact-section">
+            <div class="contact-card">
+                <h2>Contacto</h2>
+                <p>Para consultas sobre obras disponibles, comisiones o colaboraciones:</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> ruby.nunez.art@example.com</p>
+                    <p><i class="fas fa-phone"></i> +34 600 123 456</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Sevilla, España</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-artstation"></i></a>
+                </div>
+             
+            </div>
+        </section>
+    </main>
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>&copy; <span id="currentyear"></span> Ruby Núñez Cala - Todos los derechos reservados</p>
+                <p id="lastModified"></p>
+            </div>
+            
+            <div class="footer-right">
+                <p class="credits">Diseño y desarrollo por 
+                    <a href="https://github.com/Ichlaura" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i> Laura Núñez
+                    </a>
+                </p>
+                
+                <!-- Widget oficial de LinkedIn -->
+                <div class="linkedin-badge">
+                    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+                    <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="dark" 
+                         data-type="HORIZONTAL" data-vanity="laupao41" data-version="v1">
+                        <a class="badge-base__link LI-simple-link" href="https://jp.linkedin.com/in/laupao41?trk=profile-badge">
+                            Laura Paola Núñez Cala
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
